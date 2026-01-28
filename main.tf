@@ -16,7 +16,7 @@ module "app_service" {
   resource_group_name = azurerm_resource_group.example.name
   location            = azurerm_resource_group.example
   acr_login_server    = module.acr.login_server
-  acr_username        = azurerm_container_registry.acr.admin_username
-  acr_password        = azurerm_container_registry.acr.admin_password
+  acr_username        = module.acr.acr_admin_username
+  acr_password        = module.acr.acr_admin_password
   docker_image_name   = var.docker_image_name
 }
