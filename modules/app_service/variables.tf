@@ -4,4 +4,4 @@ variable "location" {}
 variable "acr_login_server" {}
 variable "acr_username" {}
 variable "acr_password" {}
-variable "docker_image_name" {}
+variable "image_name" {}
