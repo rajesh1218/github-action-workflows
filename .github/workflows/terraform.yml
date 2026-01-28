@@ -3,7 +3,7 @@ name: 'Deploy resources with Terraform'
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
 
 
