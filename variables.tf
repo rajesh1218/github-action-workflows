@@ -6,6 +6,7 @@ variable "resource_group_name" {
 variable "location" {
   description = "The Azure region to deploy resources in"
   type        = string
+  default = "East US"
 }
 variable "acr_name" {
   description = "The name of the Azure Container Registry"
