@@ -20,5 +20,5 @@ variable "app_name" {
 }
 variable "docker_image_name" {
   description = "name of the image"
-  default = "rjaappimage:latest"
+  default = "rjaappimage"
 }
