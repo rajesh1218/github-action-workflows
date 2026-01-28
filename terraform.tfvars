@@ -1,6 +1,7 @@
-location                = "East US"
-resource_group_name     = "rja-rg"
-vnet_name               = "myVNet"
-address_space           = ["10.0.0.0/16"]
-subnet_name             = "mySubnet"
-subnet_address_prefixes = ["10.0.0.0/24"]
+app_name = "myrja85005868"
+location = "East US"
+resource_group_name = "myrja-rg85005868"
+acr_name = "myrjaacr85005868"
+docker_image_name = "myrjaappimage85005868:latest"
+
+
